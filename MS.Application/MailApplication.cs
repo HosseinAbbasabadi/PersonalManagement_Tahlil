@@ -35,6 +35,7 @@ namespace MS.Application
             {
                 Console.WriteLine(exception);
                 return _operation.Failed(MailMessages.Failed);
+
             }
         }
 
