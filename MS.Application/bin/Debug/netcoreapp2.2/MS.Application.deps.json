@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "MS.Application/1.0.0": {
+        "dependencies": {
+          "MS.Application.Contracts": "1.0.0",
+          "MS.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MS.Application.dll": {}
+        }
+      },
+      "Framework.Application/1.0.0": {
+        "runtime": {
+          "Framework.Application.dll": {}
+        }
+      },
+      "Framework.Domain/1.0.0": {
+        "runtime": {
+          "Framework.Domain.dll": {}
+        }
+      },
+      "MS.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "Framework.Application": "1.0.0"
+        },
+        "runtime": {
+          "MS.Application.Contracts.dll": {}
+        }
+      },
+      "MS.Domain/1.0.0": {
+        "dependencies": {
+          "Framework.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MS.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MS.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MS.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
