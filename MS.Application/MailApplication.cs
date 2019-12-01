@@ -35,7 +35,6 @@ namespace MS.Application
             {
                 Console.WriteLine(exception);
                 return _operation.Failed(MailMessages.Failed);
-
             }
         }
 
@@ -43,6 +42,11 @@ namespace MS.Application
         {
             var mails = _mailRepository.GetAll();
             return MapMails(mails);
+        }
+
+        public MailViewModel Get(long id)
+        {
+            throw new NotImplementedException();
         }
 
         private List<MailViewModel> MapMails(IEnumerable<Mail> mails)

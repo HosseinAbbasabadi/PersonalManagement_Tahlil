@@ -9,5 +9,6 @@ namespace MS.Application.Contracts.Contracts
     {
         OperationResult Create(CreateMail command);
         List<MailViewModel> GetAll();
+        MailViewModel Get(long id);
     }
 }
